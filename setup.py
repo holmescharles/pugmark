@@ -20,11 +20,11 @@ def requirements():
 setuptools.setup(
     name='pugmark',
     version='0.1',
-    packages=setuptools.find_packages(),
+    py_modules=['pugmark'],
     description='Easy output of text with markdown',
     long_description=readme(),
     author='Charles D. Holmes',
-    author_email='holmes@wustl.edu',
+    author_email='charles.d.holmes@gmail.com',
     url='https://github.com/holmescharles/pugmark',
     zip_safe=False,
     install_requires=requirements(),
