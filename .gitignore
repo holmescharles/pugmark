@@ -1,3 +1,7 @@
-__pycache__/
-*.egg-info
-*.swp
+*
+!README.md
+!LICENSE
+!.gitignore
+!requirements.tx
+!pwgen.py
+!setup.py
